@@ -6,7 +6,7 @@
       <div class="card-body card-cont">
         <div class="avarter-cont">
           <img
-            :src="`https://picsum.photos/id/${GETUSER.id * 5}/200/200`"
+            :src="`https://picsum.photos/id/${GETUSER.id * 2}/200/200`"
             alt="avarter"
             class="avarter"
           />

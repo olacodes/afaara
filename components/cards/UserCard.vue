@@ -6,11 +6,11 @@
       :key="user.id"
       class="card-wrapper shadow-sm card has-background-white"
     >
-    <nuxt-link :to="`${user.id}`">
+    <nuxt-link :to="`${user.id}`" class="links">
       <div class="p-4">
         <div class="image-card pt-2">
           <img
-            :src="`https://picsum.photos/id/${user.id * 5}/200/200`"
+            :src="`https://picsum.photos/id/${user.id * 2}/200/200`"
             class="text-align-center img-card img-fluid"
             alt=""
           />
@@ -52,12 +52,15 @@ export default {
 }
 .card-wrapper {
   border-radius: 5px;
-  max-width: 300px;
+  width: 300px;
   margin: 15px;
 }
 .card-wrapper:hover{
-  box-shadow: 3px 3px 3px 3px rgb(235, 231, 231) !important;
+  box-shadow: 5px 5px 5px 5px rgb(223, 219, 219) !important;
   cursor: pointer;
+}
+.links:hover{
+  text-decoration-line: none;
 }
 
 .image-card {

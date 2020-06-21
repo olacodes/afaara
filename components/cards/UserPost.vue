@@ -3,7 +3,7 @@
     <div class="card card-body">
       <div class="user-info d-flex">
         <div class="user-img">
-          <img class="img-fluid img" :src="`https://picsum.photos/id/${getPost.userId * 5}/60`" alt="" />
+          <img class="img-fluid img" :src="`https://picsum.photos/id/${getPost.userId * 2}/60`" alt="" />
         </div>
         <div class="user-detail">
           <h5>{{GETUSER.name}}</h5>

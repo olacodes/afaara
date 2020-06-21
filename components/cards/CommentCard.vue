@@ -9,7 +9,7 @@
         <div class="img-cont mr-2">
           <img
             class="img-fluid"
-            :src="`https://picsum.photos//id/${comment.id * 5}/30`"
+            :src="`https://picsum.photos//id/${comment.id * 2}/30`"
             alt="comment pics"
           />
         </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="my-3">
       <h1 class="title">
         Afaara Users
       </h1>
@@ -40,9 +40,11 @@ export default{
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #35495e;
   letter-spacing: 1px;
+  color: #0f63bd;
+  padding: 0 2rem ;
 }
 
 </style>
