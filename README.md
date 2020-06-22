@@ -1,5 +1,7 @@
 # afaara
 
+#### [Afaara Website](https://afaara-ditigital.netlify.app/)
+
 ## Build Setup
 
 ```bash
